@@ -1,6 +1,6 @@
 <?php
 #Pene pal creador
-$botToken = '5546989903:AAH0gQtZpM7X3fKM3ILhsbJtahI1Vn_QLl4'; #AGREGAMOS EL TOKEN DEL BOT Aqui Ponemos El 
+$botToken = '5516526276:AAF6ijcD4b8XkcfjuY8p6Rk7ih_gx_VEo3c'; #AGREGAMOS EL TOKEN DEL BOT Aqui Ponemos El 
 $website  = "https://api.telegram.org/bot".$botToken;
 $update   = file_get_contents('php://input');
 $update   = json_decode($update, true);
