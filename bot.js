@@ -10,7 +10,5 @@ bot.onText(/^\/start/, function(msg){
     var chatId = msg.chat.id;
     var nameUser = msg.from.first_name;
     
-    bot.sendMessage(chatId, " Hey " + nameUser "Soy {} Que Tal! Soy Un Checker Creado por {ownername}"
-    	"Para Hacer Mas Facil la Utilizacion de Bins"
-    	"Para Saber Mis Comandos Usa /cmds" ); 
+ bot.sendMessage(chatId, "Bienvenido a mi bot " + nameUser);
 });
